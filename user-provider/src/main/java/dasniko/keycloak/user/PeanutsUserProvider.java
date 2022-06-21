@@ -72,8 +72,8 @@ public class PeanutsUserProvider implements UserStorageProvider,
 			return false;
 		}
 		
-		if (user.getId()="Test1") return true;
-		if (user.getId()="Test10") return true;
+		if (user.getId()=="Test1") {return true;}
+		if (user.getId()=="Test10") {return true;}
 		return false;
 	}
 
